@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-
+*{
+	margin:0px;
+	padding: 0px;
+}
+h3 {color: indigo}
+.caja {
+	width: auto;
+	heigh:auto;
+	background-color:#DEC6E0;
+	border-width: 15px;
+	border-style: solid;
+	border-color:#B470C7;
+	
+}
+	
