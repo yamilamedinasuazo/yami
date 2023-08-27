@@ -11,12 +11,14 @@ h1{
 
 h3 {color: indigo}
 
-header { 
-	width: auto;
-	heigh:auto;
+.header { 
+	width: 1200px;
+	heigh:800px;
 	background-color:#032B24;
 	border-width: 15px;
-	border-style: none;
+	border-radius:20px;
+	margin: 0px;
+	display: flex;
 	}
 	
 .boton-contacto {
@@ -24,4 +26,12 @@ header {
 	heigh:60px;
 	background-color: #146AA3;
 	border-bottom-left-radius: 5px;
+}
+
+.caja2 {
+	width: auto;
+	heigh: auto;
+	background-color:#84D6E3;
+	display: flex;
+	
 }
