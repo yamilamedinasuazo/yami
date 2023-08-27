@@ -11,11 +11,17 @@ h1{
 
 h3 {color: indigo}
 
-.caja1 {
+header { 
 	width: auto;
-	heigh:200px;
+	heigh:auto;
 	background-color:#032B24;
 	border-width: 15px;
 	border-style: none;
 	}
 	
+.boton-contacto {
+	width: 250px;
+	heigh:60px;
+	background-color: #146AA3;
+	border-bottom-left-radius: 5px;
+}
