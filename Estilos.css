@@ -11,15 +11,13 @@ h1{
 
 h3 {color: indigo}
 
-.header { 
-	width: 1200px;
-	heigh:800px;
+.header {
+	width:auto;
+	heigh:auto;
 	background-color:#032B24;
-	border-width: 15px;
+	border-width:15px;
 	border-radius:20px;
-	margin: 0px;
-	display: flex;
-	}
+	margin: 0px;}
 	
 .boton-contacto {
 	width: 250px;
