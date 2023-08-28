@@ -17,7 +17,11 @@ h2{
 	font-size: 25px;
 	color:whitesmoke;
 }
-h3 {color: indigo}
+h3 {
+	font-family: "Garamond Premr Pro", "Garamond Premr Pro Capt", "Garamond Premr Pro Disp";
+	font-style: italic;
+	color: whitesmoke;
+}
 
 header {
 	width:1400px;
@@ -27,25 +31,36 @@ header {
 	border-radius:20px;
 	margin: 0px;
 	display:flex;
-	flex-direction:row;
+	flex-direction: reverse;
 	align-content: center;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap
 }
 	
+img {
+	vertical-align:top;
+	align-content:space-between;
+	right: inherit;
+}
 body {
 	width: 250px;
 	heigh:60px;
-	background-color: #146AA3;
+	background-color: #A5D4E5;
 	border-bottom-left-radius: 5px;
-	display: flex;
-	
+	display: flex;	
 }
 
-caja2 {
-	width: auto;
-	heigh: auto;
-	background-color:#84D6E3;
+.Columna1 {
 	display: flex;
-	
+	flex-direction: column;
+}
+
+.Columna2{
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	text-indent: 30px;
 }
