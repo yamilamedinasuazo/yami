@@ -44,8 +44,10 @@ img {
 	right: inherit;
 }
 body {
-	width: 250px;
-	heigh:60px;
+	width:1400px;
+	heigh:600px;
+	padding: 40px;
+	margin: 70px; 
 	background-color: #A5D4E5;
 	border-bottom-left-radius: 5px;
 	display: flex;	
