@@ -64,3 +64,9 @@ body {
 p {
 	text-indent: 30px;
 }
+
+footer {
+	background-color: #032B24;
+	width:auto;
+	heigh:auto;
+}
