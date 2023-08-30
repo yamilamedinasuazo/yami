@@ -75,7 +75,7 @@ img {
 
 .columna2{
 	display: flex;
-	flex-direction:column;
+	flex-direction:row;
 }
 
 .flex-item{
@@ -90,6 +90,7 @@ img {
 
 .flex-item-foto2, .flex-item-foto3, .flex-item-foto4{
 	text-align: center;
+	flex-direction: row;
 	
 }
 p {
