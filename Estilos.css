@@ -22,6 +22,11 @@ h3 {
 	font-style: italic;
 	color: whitesmoke;
 }
+h4{
+	font-family: "Garamond Premr Pro";
+	color:whitesmoke;
+	font-size: 12px;
+}
 
 body {
 	
@@ -104,5 +109,5 @@ a{
 footer {
 	background-color: #032B24;
 	width:auto;
-	heigh:auto;
+	heigh:100px;
 }
