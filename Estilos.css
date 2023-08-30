@@ -54,7 +54,7 @@ header {
 	align-items: center;
 }
 	
-img {
+.img-perfil {
 	float: right;
 	vertical-align:top;
 	align-content:space-between;
@@ -62,7 +62,7 @@ img {
 }
 	
 .img-catedra{
-	align-content: flex-start;
+	align-content:space-around;
 	float: left;
 	vertical-align: top;
 }
