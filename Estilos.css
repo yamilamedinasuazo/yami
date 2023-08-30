@@ -56,7 +56,7 @@ img {
 	right: inherit;
 }
 	
-.section1, .section2, .section3 {
+.section1, .section2, .section3, .section5 {
 	padding: 40px; 
 	margin: 20px; 
 	border-radius: 20px;
@@ -65,12 +65,12 @@ img {
 }
 .columna1 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .columna2{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .flex-item{
@@ -83,6 +83,10 @@ p {
 	text-indent: 30px;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
 footer {
 	background-color: #032B24;
 	width:auto;
