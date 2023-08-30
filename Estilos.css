@@ -81,10 +81,10 @@ img {
 .flex-item{
 	display: table-cell;
 	align-items: flex-start;
-	padding: 40px; 
-	margin: 20px; 
+	padding: auto; 
+	margin: auto; 
 	border-radius: 20px;
-	width: 290px; 
+	width: auto; 
 	background-color: #005F7A;
 }
 
