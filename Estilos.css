@@ -82,9 +82,11 @@ header {
 	display: flex;
 	flex-direction:row;
 }
-
-.flex-item{
-	display: table-cell;
+.flex-item {
+	display: flex;
+}
+.section4{
+	display: flex;
 	align-items: flex-start;
 	padding: auto; 
 	margin: auto; 
@@ -96,6 +98,7 @@ header {
 .flex-item-foto2, .flex-item-foto3, .flex-item-foto4{
 	text-align: center;
 	flex-direction: row;
+	display:flex;
 	
 }
 p {
