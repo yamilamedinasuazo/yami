@@ -56,6 +56,11 @@ img {
 	right: inherit;
 }
 	
+.img-catedra{
+	align-content: flex-start;
+	float: left;
+	vertical-align: top;
+}
 .section1, .section2, .section3, .section5 {
 	padding: 40px; 
 	margin: 20px; 
@@ -74,10 +79,18 @@ img {
 }
 
 .flex-item{
-	display: contents;
-	flex-direction: row;
-	justify-content: flex-start;
+	display: table-cell;
 	align-items: flex-start;
+	padding: 40px; 
+	margin: 20px; 
+	border-radius: 20px;
+	width: 290px; 
+	background-color: #005F7A;
+}
+
+.flex-item-foto2, .flex-item-foto3, .flex-item-foto4{
+	text-align: center;
+	
 }
 p {
 	text-indent: 30px;
