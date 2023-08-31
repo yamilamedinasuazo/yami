@@ -97,8 +97,9 @@ header {
 
 .flex-item-foto2, .flex-item-foto3, .flex-item-foto4{
 	text-align: center;
-	flex-direction: row;
+	flex-direction: column;
 	display:flex;
+	align-items: center;
 	
 }
 p {
