@@ -30,8 +30,6 @@ h4{
 }
 
 body {
-	
-	padding: 40px;
 	margin: 70px; 
 	background-color: #A5D4E5;
 	border-bottom-left-radius: 5px;
@@ -47,7 +45,6 @@ header {
 	border-width:15px;
 	border-radius:20px;
 	margin: 0px;
-	padding: inherit;
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
