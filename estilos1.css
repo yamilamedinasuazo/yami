@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+h1{
+	font-family: Monkeg, "Garamond Premr Pro";
+	color: whitesmoke;
+	font-size:90px;
+	justify-content: center;
+}
+
+h2{
+	font-family: "Garamond Premr Pro";
+	font-style: italic;
+	font-size: 25px;
+	color:whitesmoke;
+}
+h3 {
+	font-family: "Garamond Premr Pro";
+	font-style: italic;
+	color: whitesmoke;
+}
+h4{
+	font-family: "Garamond Premr Pro";
+	color:whitesmoke;
+	font-size: 12px;
+}
+
+body {
+	
+	padding: 40px;
+	margin: 70px; 
+	background-color: #A5D4E5;
+	border-bottom-left-radius: 5px;
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+	
+header {
+	max-width:1400px;
+	height:350px;
+	background-color:#032B24;
+	border-width:15px;
+	border-radius:20px;
+	margin: 0px;
+	padding: inherit;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+	
+.img-perfil {
+	float: right;
+	vertical-align:top;
+	align-content:space-between;
+	right: inherit;
+}
+	
+.img-catedra{
+	align-content:space-between;
+	float: left;
+	vertical-align: top;
+}
+.sobre-mi, .educacion, .habilidades, .ilustraciones, .contacto{
+	padding: 40px; 
+	margin: 20px; 
+	border-radius: 20px;
+	width: 290px; 
+	background-color: #005F7A;
+}
+.informativa {
+	display: flex;
+	flex-direction: row;
+}
+
+.columna2{
+	display: flex;
+	flex-direction:row;
+}
+.flex-item {
+	display: flex;
+}
+.ilustraciones{
+	display: flex;
+	align-items: flex-start;
+	padding: auto; 
+	margin: auto; 
+	border-radius: 20px;
+	width: auto; 
+	background-color: #005F7A;
+}
+
+.flex-item-foto2, .flex-item-foto3, .flex-item-foto4{
+	text-align: center;
+	flex-direction: column;
+	display:flex;
+	align-items: center;
+	
+}
+p {
+	text-indent: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+footer {
+	background-color: #032B24;
+	width:auto;
+	height:80px;
+}
