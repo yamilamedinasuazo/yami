@@ -108,8 +108,9 @@ a{
 footer {
 	background-color: #032B24;
 	width:auto;
-	height:950px;
-	margin-top: 90px;
+	height:95px;
+	margin-top: 45px;
+	border-radius: 15px;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-around;
