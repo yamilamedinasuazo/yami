@@ -61,6 +61,8 @@ header {
 	align-content:space-between;
 	float: left;
 	vertical-align: top;
+	display: flex;
+	
 }
 .sobre-mi, .educacion, .habilidades, .ilustraciones, .contacto{
 	padding: 40px; 
@@ -113,5 +115,4 @@ footer {
 	display:flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-content: flex-start;
 }
