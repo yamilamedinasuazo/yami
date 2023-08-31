@@ -62,18 +62,18 @@ header {
 }
 	
 .img-catedra{
-	align-content:space-around;
+	align-content:space-between;
 	float: left;
 	vertical-align: top;
 }
-.section1, .section2, .section3, .section5 {
+.sobre-mi, .educacion, .habilidades, .ilustraciones, .contacto{
 	padding: 40px; 
 	margin: 20px; 
 	border-radius: 20px;
 	width: 290px; 
 	background-color: #005F7A;
 }
-.columna1 {
+.informativa {
 	display: flex;
 	flex-direction: row;
 }
@@ -85,7 +85,7 @@ header {
 .flex-item {
 	display: flex;
 }
-.section4{
+.ilustraciones{
 	display: flex;
 	align-items: flex-start;
 	padding: auto; 
@@ -113,5 +113,5 @@ a{
 footer {
 	background-color: #032B24;
 	width:auto;
-	heigh:100px;
+	height:80px;
 }
