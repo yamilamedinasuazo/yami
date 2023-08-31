@@ -9,7 +9,6 @@ h1{
 	font-family: Monkeg, "Garamond Premr Pro";
 	color: whitesmoke;
 	font-size:90px;
-	justify-content: center;
 }
 
 h2{
@@ -26,7 +25,8 @@ h3 {
 h4{
 	font-family: "Garamond Premr Pro";
 	color:whitesmoke;
-	font-size: 12px;
+	font-size: 10px;
+	font-style: italic;
 }
 
 body {
@@ -55,8 +55,6 @@ header {
 .img-perfil {
 	float: right;
 	vertical-align:top;
-	align-content:space-between;
-	right: inherit;
 }
 	
 .img-catedra{
@@ -85,8 +83,7 @@ header {
 }
 .ilustraciones{
 	display: flex;
-	align-items: flex-start;
-	padding: auto; 
+	align-items: flex-start; 
 	margin: auto; 
 	border-radius: 20px;
 	width: auto; 
@@ -112,4 +109,7 @@ footer {
 	background-color: #032B24;
 	width:auto;
 	height:80px;
+	margin: auto;
+	display:flex;
+	
 }
